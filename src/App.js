@@ -1,15 +1,14 @@
 import React from "react";
 import './App.css';
+import Sidebar from "./Sidebar";
 
 function App() {
 
   // BEM Naming convention
   return (
     <div className="app">
-      <h1>Lets build a Whatsapp Clone!</h1>
-
       <div className="app_body">
-        {/**/}
+        <Sidebar />
       </div>
     </div>
   );
