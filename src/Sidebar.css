@@ -50,3 +50,9 @@
     margin-right: 2vw;
     font-size: 24px !important;    /* !important overright font size of material-ui*/
 }
+
+.sidebar__chats {
+    flex: 1;
+    background-color: white;
+    overflow: scroll;
+}
